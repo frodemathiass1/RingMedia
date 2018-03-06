@@ -1,0 +1,1047 @@
+
+/*=============STYLE SHEET=============*/
+
+html{
+margin:0;
+padding:0;
+}
+
+body {
+font-family: 'Open Sans', sans-serif, serif, monospace;	
+background-color:#ecf0f1;
+font-size:100%;
+padding: 0;
+margin: 0;
+}
+
+
+body *{
+box-sizing:border-box;
+}
+h1 {
+
+color:#F2EFE6; 
+text-align:left;
+letter-spacing:0.2em;
+font-family: 'Josefin Sans',sans-serif;
+padding:0.2em;
+}
+
+h2 {
+color:#000000;    
+font-size:100%;
+font-family: 'Josefin Sans',sans-serif;
+}
+
+h3 {
+font-size: 100%;
+text-align: center;
+font-family: 'Josefin Sans',sans-serif;
+}
+
+h4 {
+font-size:100%;
+color:#000000;
+text-align:center;
+margin-bottom:1px;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+p {
+font-size:100%;
+line-height:190%;
+}
+
+a {
+text-decoration:none;
+font-size:100%;
+color:#0021DE;
+}
+
+
+
+
+header {
+
+background-position: right;
+background-size: 30%;
+background-repeat: no-repeat;
+width:100%;
+display: block;
+width:100%;	
+}
+
+header h1{
+width:100%;	
+margin:0 auto;
+text-align: center;
+color: #ffffff;
+font-size: 340%;
+letter-spacing: 0.3em;
+text-shadow: 3px 3px #000000;
+padding-left: 1em;
+}
+
+
+footer {
+background-color:#ecf0f1;
+width:100%;
+margin-top: 1em;
+padding-top: 1em;
+padding-bottom: 1em;
+text-align: center;
+font-size: 100%;
+}
+
+
+nav li{
+font-family: 'Josefin Sans', sans-serif;
+display:inline-block ;
+font-weight: bold;
+font-size: 100%;
+width:5em;
+text-align:center;
+padding-top:0.5em;
+padding-bottom:0.5em; 
+padding-left: 0%;
+margin-right: 5em;
+color: black;
+border-radius: 0.5em;	
+/*background-color:#2c3e50 ; */
+}
+
+nav li a{
+	text-decoration: none;
+	color:#ffffff;
+	font-size: 150%;
+	text-shadow:1px 1px #000;
+}
+nav ul{
+display: block;
+text-align: center;
+list-style-type: none;
+width:100%;
+/*background-color:#2c3e50;*/
+padding-bottom:1em;
+padding-top:0em;
+padding-left:4%;
+margin: 0;
+
+border-bottom: 1px solid #000000;
+
+}
+
+
+
+
+.backgroundcontainer {
+background-image: url("images/desktopbc.png");
+background-position: bottom;
+overflow: hidden;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+#videomockup figcaption, #musicplayer figcaption, #logos figcaption{
+	font-family: 'Open Sans Condensed';
+	font-size: 140%;
+}
+
+
+
+/*  *****************JAVASCRIPT STYLES***************** */
+
+#quotes {
+     float:left;
+     left:50%;
+     top:50%;
+     margin:0 auto;
+     padding:0;
+     font-family:'Open Sans';
+     font-size:160%;
+     color:#ecf0f1;
+     width:100%;
+     height:50%;
+     background-color:#2c3e50;
+     text-align:center;
+   }
+
+
+/*===============Class & ID SELECCTORS==================*/
+
+
+
+.punchline{
+	width: 100%;
+	text-align: center;	
+	padding-top: 0;
+	padding-bottom: 0.5em;
+	z-index: 1;
+}
+
+.punchline img{
+	width: 50%;
+}
+
+.punchline h2{
+	font-size: 250%;
+	color:white;
+	text-shadow:3px 3px #000000;
+	font-family: 'Josefin Sans'!important;
+	letter-spacing:0;
+	margin-bottom: 0.3em;
+	margin-top: 0;
+	padding-bottom:0 ;
+	padding-top: 1em;
+}
+
+
+
+.punchline h3{
+	font-size:150%;
+	color:black;
+	font-family: 'Open Sans Condensed';
+	margin-top: 0;
+	
+}
+
+.punchline h4{
+	font-size:170%;
+	color:#ffffff;
+	font-family: 'Segoe UI'!important;
+	letter-spacing: 0.05em;
+	margin-top: 0;
+	padding-bottom: 1em;
+	padding-top: 1em;
+
+}
+
+
+.bulletlistcontainer{
+	width:100%;
+	margin: 0 ;
+	padding: 0;
+	
+	padding-left: 0;
+	text-align: center;	
+}
+
+
+.bulletlist1, .bulletlist2{
+
+width: 30%;
+display: inline-block;
+text-align: left;
+line-height: 2em;
+font-family: 'Open Sans Condensed';
+color: #ecf0f1;
+font-size: 140%;
+padding:0;
+margin:0;
+margin: 0;
+background-color:#2c3e50;
+border-radius: 1px ;
+
+
+}
+
+
+
+
+.container {
+	width:100%;
+	margin: 0 auto;
+	/*background-color: #ecf0f1;*/
+}
+
+#top{
+	width:100%; 
+	/*background-color: #2c3e50;*/
+	padding-top:0;
+}
+
+#top h1{
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-top: 0em;
+	margin-bottom: -0.2em;
+}
+
+#top img{
+	width: 5%;
+}
+
+#top span {
+	font-size: 200%;
+	color: #CC1300;
+}
+
+#top2{
+background-image: url("desktopbc.png");
+}
+#top2 span{
+font-size: 200%;
+color: #CC1300;	
+}
+
+
+
+#topmedia{
+background-color: #2c3e50;
+}
+
+.footercontainer{
+	background-color: #ecf0f1;
+}
+
+.footercontainer h4{
+	font-size: 140%;
+}
+
+.left{
+width: 80%;
+display:inline-block;
+float: right;
+padding: 0;
+margin: 0 auto;
+text-align: center;
+padding-right:20%;
+background-color: #ecf0f1;
+
+}
+
+.right{
+width:20%;
+display:inline-block; 	
+background-color: #ecf0f1;
+padding-left: 0;
+}
+
+#appstorecontainer{
+	background-color: #ecf0f1;
+	padding-bottom: 1%;
+}
+
+
+#colortext{
+	background-color: #2c3e50;	
+}
+
+#colortext h3{
+	font-size: 150%;
+	color:#ecf0f1;
+}
+
+#introduction{
+	margin:0 auto;
+	text-align: right;
+	display: block;
+	width:50%;
+	padding-top:2% ;
+	padding-bottom:5%;
+}
+
+#introduction p {
+	color:#ecf0f1;
+	text-align: left;
+	font-size: 140%;
+	font-family: 'Open Sans Condensed';
+	line-height: 1.2em;
+}
+
+#introduction h2{
+	color:#ecf0f1;
+	text-align: left;
+	font-size: 250%;
+	font-family:'Open Sans Condensed';
+	letter-spacing: 0.1em;
+	line-height: 1em;
+	text-shadow: 2px 2px #000000;
+
+}
+
+#introduction a{
+	color:#ecf0f1;
+	font-weight:bold;
+	font-size: 150%;
+	font-family: 'Spyroclassic';	
+}
+
+#devices figcaption{
+color:black;
+}
+
+
+#logos{
+	margin:0 auto;
+	text-align: center;
+	display: block;
+	padding-bottom: 2em;
+}
+
+#logos img {
+	width: 100%;
+	padding: 0;
+	padding-top:0em;
+}
+
+#logos h2{
+	font-size: 220%;
+	font-family: 'Open Sans Condensed';
+	color: #2c3e50;
+}
+#videomockup{
+	margin:0 auto;
+	text-align: center;
+	display: block;
+}
+
+#videomockup img ,#musicplayer img{
+	width: 75%;
+	padding-right: 0;
+	padding-top: 2%;
+	padding-bottom: 0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+#musicplayer{
+	margin:0 auto;
+	text-align: center;
+	display: block;
+	padding-bottom: 5%;
+}
+
+
+#devices {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+#devices img{
+	width:100%;
+}
+
+#testemonials{
+	margin:0 auto;
+	text-align: center;
+	display: block;
+	background-color: #2c3e50;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+#testemonials img{
+	width: 48%;
+}
+
+#testemonials h2 img{
+	width: 7%;
+	padding-left: 0.3em;
+}
+
+#testemonials h2{
+	color: #ecf0f1;
+	font-size: 250%;
+	font-family:'Kaushan Script';
+	letter-spacing: 0.2em;
+	text-shadow: 2px 2px #000000;
+}
+
+#testemonials figcaption {
+	font-family: 'Open Sans Condensed';
+	font-size: 140%;
+	color:#ecf0f1;
+	padding-bottom: 2em;
+}
+
+
+#appstores{
+	margin:0 auto;
+	text-align: center;
+	display: block;
+	clear: right;
+
+}
+#appstores img{
+	width: 15%;
+
+}
+#appstores figcaption{
+	font-family: 'Open Sans Condensed';
+	font-size: 140%;
+	color:black;
+	padding-bottom: 0;
+
+}
+
+
+/* ************* FUNCTIONS & EFFECTS ****************** */
+
+.navigation a:hover{
+	text-decoration: underline;
+	padding: 2px;
+}
+
+.backtotop{
+	width: 4%;
+	position: fixed;
+	bottom: 1em;
+	right: 3em;
+	color: #ffffff;
+	padding:0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-radius: 10px;
+}
+
+.backtotop:hover {
+	color: #bdc3c7;
+	-moz-box-shadow: 2px 2px 10px #000; 
+	-webkit-box-shadow: 2px 2px 10px #000;
+	box-shadow: 2px 2px 10px #000; 
+}
+
+#anchor{
+	text-align: center;
+}
+#anchor img{
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.aboutcontainer a:hover{
+	text-decoration: underline;
+	padding:0.2em;
+	cursor:pointer;
+}
+
+#netflix img:hover, #hbo img:hover, #cmore img:hover, #viaplay img:hover, #nrk img:hover, #tv2 img:hover,
+#dplay img:hover, #applemusic img:hover, #spotify img:hover, #wimp img:hover, #googleplay img:hover {
+opacity:0.6;
+}
+
+
+.contactpage a:hover{
+text-decoration: underline;
+
+}
+
+.mediacolor1 a:hover {
+		text-decoration: underline;	
+		padding: 2px;
+	}
+
+
+	.mediacolor2 a:hover{
+		text-decoration: underline;	
+		padding: 2px;
+	}
+
+
+/**************MEDIA INFO PAGE******************************/
+
+
+.mediainfocontainer{
+background-color: #ecf0f1;
+margin-bottom: 0;
+padding-bottom: 1em;
+width:100%;
+}
+
+#infopage{
+	background-color: #ecf0f1;
+	color:black;
+}
+
+
+#mediainfo{
+	background-color: #ecf0f1;
+	margin:0 auto;
+	text-align: center;
+	display: block;
+	width:100%;
+}
+
+#mediainfo p {
+	color:black;
+	text-align: left;
+	font-size: 140%;
+	font-family: 'Open Sans Condensed';
+	width: 50%;
+	margin: 0 auto;
+}
+
+#mediainfo h2{
+	font-family: 'Open Sans Condensed';
+	color:black;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 250%;
+	width: 50%;
+	padding-top: 1em;
+}
+
+
+
+/* **************ABOUT INFO CONTACT PAGES *************** */
+
+.contactpage{
+	width: 100%;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+.contactpage p{
+	font-size: 140%;
+	font-family: 'Open sans';
+	margin-bottom: 0;
+}
+
+.contactpage h2{
+	font-size: 250%;
+	font-family: 'Open Sans Condensed';
+	margin-top: 0;
+}
+
+.contactpage a{
+	text-decoration: none;
+	
+}
+
+
+.aboutcontainer{
+	background-color:#ecf0f1;
+	margin-bottom: 0;
+	padding-bottom: 5em;
+}
+
+#about{
+	padding-top: 3em;
+}
+
+/* ***********LOGOS **************** */
+#spotify img{
+width:13%;
+padding-top: 3em;
+
+}
+#wimp img{
+width:13%;
+padding-top: 3em;
+}
+
+#netflix img{
+width:10%;
+padding-top: 3em;
+
+}
+
+#cmore img{
+width:12%;
+padding-top: 3em;
+}
+
+#viaplay img{
+width:12%;
+padding-top: 3em;
+}
+
+#nrk img{
+width:15%;
+padding-top: 3em;
+}
+
+#tv2 img{
+width:15%;
+padding-top: 3em;
+}
+
+#dplay img{
+width:13%;
+padding-top: 3em;
+}
+
+#applemusic img{
+width:15%;
+padding-top: 3em;
+}
+
+#hbo img{
+width:10%;
+padding-top: 3em;
+}
+
+#googleplay img{
+width:18%;
+padding-top: 3em;
+}
+
+#vpn img{
+	width: 20%;
+}
+
+
+	
+
+
+#about{
+	margin:0 auto;
+	text-align: center;
+	display: block;
+	width:50%;
+}
+
+#aboutcontainer a{
+	color:#2438AB;
+	text-decoration: none;
+}
+
+
+#about p {
+	color:black;
+	text-align: left;
+	font-size: 140%;
+	font-family: 'Open Sans Condensed';
+	line-height: 1.4em;
+	margin-top: 0;
+}
+
+#about h2{
+	color: black;
+	font-family: 'Open Sans Condensed';
+	font-size: 250%;
+	letter-spacing: 0em;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	text-align: left;
+	line-height: 2em;
+
+
+}
+
+#about span img{
+	width: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================@ Media Responsive==============================*/
+
+/*MOBILE*/
+@media all and (max-width:480px) {
+
+	
+}
+/*TABLET*/
+
+
+@media (max-width: 768px){
+
+	.backgroundcontainer{
+		
+		background-image: url("images/mobilebc.png") top left;
+
+	}
+
+	#top2{
+		/*background-image: url("images/mobilebc.png") bottom right;*/
+	}
+
+
+	header h1{
+		font-size: 220%;
+		text-shadow:3px 3px #000000;
+		margin-left: 0;
+
+
+	}
+
+	.bulletlistcontainer{
+		width: 100%;
+		text-align: left;
+	}
+	.bulletlist1, .bulletlist2{
+		width: 100%;
+		padding:0;
+		margin: 0;
+	}
+
+	#logos{
+		width: 75%;
+	}
+
+	#top {
+		width: 100%;
+		
+	}
+
+
+
+	nav ul{
+		width: 100%;
+		font-size: 100%;
+		margin: 0 auto;
+		display:block;
+		/*padding-left: 0;*/
+		letter-spacing: 0em;
+		text-align: center;
+		padding-top: 1em;
+	}
+
+	nav li{
+		padding: 0.3em;
+		text-align: center;
+		font-size: 120%;
+		font-family: 'Josefin Sans Condensed';
+		border:1px solid #7f8c8d;
+		margin: 0;
+		border-radius: 3px;
+	}
+
+	nav li a {
+		margin: 0;
+		padding: 0;
+		font-size: 100%;
+		text-shadow:2px 2px #000000;
+	}
+
+	#home {
+		padding-left: 0.7em;
+		letter-spacing: 0;
+
+	}
+	.punchline {
+		
+	}
+	
+	.punchline h2{
+		font-size: 200%;
+		padding: 0.5em;
+		color:#ffffff;
+		text-shadow:2px 2px #000000;
+		
+
+	}
+	.punchline h3{
+		font-size: 78%;
+	}
+	.punchline h4{
+		font-size: 120%;
+		padding: 0.3em;
+		color:#ffffff;
+		text-shadow:1px 1px #000000;
+	}
+
+	.bulletlist1, .bulletlist2{
+		background-color: #bdc3c7;
+		color:black;
+		padding: 0.4em;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin:0;
+	}
+	.left{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.right {
+		width:100%;
+	}
+
+	
+	#appstorecontainer img{
+		width: 30%;
+	}
+	#introduction{
+		width: 100%;
+		margin: 0;
+		padding: 1em;
+	}
+	#introduction h2 {
+		font-size: 180%;
+		margin: 0 auto;
+	}
+	#introduction h3{
+		font-size: 200%;
+	}
+	.aboutcontainer{
+		width: 100%;
+	}
+	#about {
+		width: 100%;
+		padding: 1em;
+	}
+	#about img{
+		width: 100%;
+	}
+
+	#about h2{
+		font-size: 180%;
+	}
+	#devices{
+		width:100%;
+	}
+	#devices img{
+		width: 100%;
+	}
+
+	#about span img{
+		width: 20%;
+	}
+
+	#testemonials {
+		width: 100%;
+	}
+	#testemonials img{
+		width: 100%;
+		
+	}
+	#testemonials figcaption{
+		font-size: 140%;
+		text-align: center;
+	}
+
+	#quotes{
+		font-size: 100%;
+	}
+
+	.contactpage p{
+		font-size: 145%;
+	}
+	.contactpage h2{
+		font-size: 300%;
+	}
+
+	#mediainfocontainer{
+	width:100%;
+	}
+	#mediainfo{
+		margin-top: 0;
+	
+	}
+	#mediainfo p{
+		font-size: 120%;
+		width: 100%;
+		padding: 1em;
+	}
+	#mediainfo h2{
+		font-size: 200%;
+		width: 100%;
+		padding-top: 10%;
+	}
+
+
+
+
+	.backtotop{
+		width: 10%;
+		right:5%;
+		bottom: 0.5em;
+	}
+
+	.contactpage{
+
+	}
+
+	.contactpage h2{
+		font-size: 200%;
+		width: 100%;
+		padding-top: 10%;
+	}
+
+	.contactpage p{
+		font-size: 120%;
+		width: 100%;
+		margin: 0;
+		padding-top:1em;
+		
+	}
+	.contactpage a{
+		margin:0;
+		padding-bottom: 2em;
+	}
+	#spotify img{
+	width:50%;
+	padding-top: 3em;
+	}
+	#wimp img{
+	width:50%;
+	padding-top: 3em;
+	}
+	
+	#netflix img{
+	width:50%;
+	padding-top: 3em;
+	}
+	
+	#cmore img{
+	width:50%;
+	padding-top: 3em;
+	}
+	
+	#viaplay img{
+	width:50%;
+	padding-top: 3em;
+	}
+	
+	#nrk img{
+	width:50%;
+	padding-top: 3em;
+	}
+	
+	#tv2 img{
+	width:50%;
+	padding-top: 3em;
+	}
+	
+	#dplay img{
+	width:50%;
+	padding-top: 3em;
+	}
+	
+	#applemusic img{
+	width:50%;
+	padding-top: 3em;
+	}
+	
+	#hbo img{
+	width:50%;
+	padding-top: 3em;
+	}
+	
+	#googleplay img{
+	width:90%;
+	padding-top: 3em;
+	padding-bottom: 0%;
+	}
+
+	.footercontainer h4{
+		font-size: 90%;
+
+	}
+}
+
+
+/*DESKTOP SMALL*/
+@media all and (min-width: 769px) and (max-width:1024px){
+}
+/*DESKPTOP LARGE*/
+@media all and (min-width:1025px) {
+}
